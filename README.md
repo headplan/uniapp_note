@@ -16,12 +16,21 @@ uni-app使用的是vue的语法 , 不是小程序自定义的语法 .
 
 #### mpvue
 
-uni-app对vue语法的支持是mpvue的超集 . 可以查看这篇文章 : 
+uni-app对vue语法的支持是mpvue的超集 . 可以查看这篇文章 :
 
-mpvue转uniapp - https://ask.dcloud.net.cn/article/34945
+mpvue转uniapp - [https://ask.dcloud.net.cn/article/34945](https://ask.dcloud.net.cn/article/34945)
 
+#### Vue和微信小程序的比较
 
+https://segmentfault.com/a/1190000015684864
 
-  
+#### 其他相关视频
 
+腾讯课堂 - https://ke.qq.com/course/list/uni-app?tuin=269fe6b
+
+网易云课堂 - https://study.163.com/courses-search?keyword=uniapp
+
+bilibili - https://search.bilibili.com/all?keyword=uniapp
+
+慕课网 - https://www.imooc.com/search/?words=uni-app
 
