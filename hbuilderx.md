@@ -41,5 +41,5 @@ HBuilderX开发工具 - [https://www.dcloud.io/hbuilderx.html](https://www.dclou
 
 编辑器工具栏中可以选择运行 , 也可以选择快捷按钮或快捷键Command+R选择运行环境 , 预览程序 . 
 
-在Mac系统中 , 选择偏好设置 , 打开`Settings.json` 文件进行配置 . 其中运行配置可以设置一些真机调试的配置 . 
+
 
