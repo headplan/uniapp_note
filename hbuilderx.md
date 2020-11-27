@@ -17,7 +17,7 @@ HBuilderX开发工具 - [https://www.dcloud.io/hbuilderx.html](https://www.dclou
 </template>
 ```
 
-常用的Vue标签 , 还有{{title}}表达式 , 用来绑定数据 . 再看script部分 :
+常用的Vue标签 , 还有`{{title}}`表达式 , 用来绑定数据 . 再看script部分 :
 
 ```
 <script>
@@ -37,8 +37,10 @@ HBuilderX开发工具 - [https://www.dcloud.io/hbuilderx.html](https://www.dclou
 </script>
 ```
 
-其中data\(\)就是常用的model类 , 用来处理数据 .
+其中`data()`就是常用的model类 , 用来处理数据 .
 
 编辑器工具栏中可以选择运行 , 也可以选择快捷按钮或快捷键Command+R选择运行环境 , 预览程序 .
 
-在Mac系统中 , 选择偏好设置 , 打开Settings.json文件进行配置 . 其中运行配置可以设置一些真机调试的配置 .
+在Mac系统中 , 选择偏好设置 , 打开`Settings.json`文件进行配置 . 其中运行配置可以设置一些真机调试的配置 . 这里可以看一下微信小程序的配置选项 : 
+
+
