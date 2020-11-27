@@ -8,12 +8,7 @@ HBuilderX开发工具 - [https://www.dcloud.io/hbuilderx.html](https://www.dclou
 
 ```
 <template>
-	<view class="content">
-		<image class="logo" src="/static/logo.png"></image>
-		<view class="text-area">
-			<text class="title">{{title}}</text>
-		</view>
-	</view>
+	<text class="title">{{title}}</text>
 </template>
 ```
 
@@ -40,6 +35,8 @@ HBuilderX开发工具 - [https://www.dcloud.io/hbuilderx.html](https://www.dclou
 其中`data()`就是常用的model类 , 用来处理数据 . 
 
 编辑器工具栏中可以选择运行 , 也可以选择快捷按钮或快捷键Command+R选择运行环境 , 预览程序 . 
+
+
 
 
 
