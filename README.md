@@ -2,7 +2,7 @@
 
 官网 - [https://uniapp.dcloud.io/](https://uniapp.dcloud.io/)
 
-官方社区 - https://ask.dcloud.net.cn/explore/
+官方社区 - [https://ask.dcloud.net.cn/explore/](https://ask.dcloud.net.cn/explore/)
 
 快速上手 - [https://uniapp.dcloud.io/quickstart](https://uniapp.dcloud.io/quickstart)
 
@@ -38,7 +38,7 @@ bilibili - [https://search.bilibili.com/all?keyword=uniapp](https://search.bilib
 
 #### UniCloud学习资料
 
-https://uniapp.dcloud.io/uniCloud/learning
+[https://uniapp.dcloud.io/uniCloud/learning](https://uniapp.dcloud.io/uniCloud/learning)
 
 ### 关于各端的管理规则注意
 
@@ -47,8 +47,6 @@ https://uniapp.dcloud.io/uniCloud/learning
 * 比如App端，iOS对隐私控制和虚拟支付控制非常严格；
 * 比如App端，Android、国产rom各种兼容性差异，尤其是因为谷歌服务被墙，导致的push、定位等开发混乱的坑；
 * 如果你的App要使用三方sdk，比如定位、地图、支付、推送...还要遵循他们的规则和限制；
-
-
 
 
 
