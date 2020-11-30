@@ -8,4 +8,5 @@
     * [App.vue](kuang-jia-ji-chu/mu-lu-jie-gou/appvue.md)
     * [main.js](kuang-jia-ji-chu/mu-lu-jie-gou/mainjs.md)
     * [manifest.json](kuang-jia-ji-chu/mu-lu-jie-gou/manifestjson.md)
+    * [pages.json](kuang-jia-ji-chu/mu-lu-jie-gou/pagesjson.md)
 
