@@ -16,6 +16,7 @@ App.vue - 全局Vue文件
 main.js - 项目入口文件
 manifest.json - 整个项目的配置文件
 pages.json - 路由等页面相关配置文件
+uni.scss - 常量样式配置文件
 ```
 
 #### pages.json
