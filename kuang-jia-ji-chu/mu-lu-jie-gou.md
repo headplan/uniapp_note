@@ -6,6 +6,12 @@ pages/ - 页面文件路由目录
     index/ - 默认首页
         index.vue
 static/ - 静态文件目录
+unpackage/ - 编译打包目录
+    dist/
+      dev/ - 测试目录
+        app-plus - 手机端
+        mp-weixin - 微信小程序
+      build - 编译过后的目录
 pages.json - 路由等页面相关配置文件
 ```
 
