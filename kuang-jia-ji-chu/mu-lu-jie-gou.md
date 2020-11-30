@@ -12,6 +12,7 @@ unpackage/ - 编译打包目录
         app-plus - 手机端
         mp-weixin - 微信小程序
       build - 编译过后的目录
+App.vue - 全局Vue文件
 pages.json - 路由等页面相关配置文件
 ```
 
