@@ -6,10 +6,12 @@ pages/ - 页面文件路由目录
     index/ - 默认首页
         index.vue
 static/ - 静态文件目录
-pages.json - 路由配置文件
+pages.json - 路由等页面相关配置文件
 ```
 
 #### pages.json
+
+详细可以查看pages.json配置
 
 路由配置项 - [https://uniapp.dcloud.io/collocation/pages](https://uniapp.dcloud.io/collocation/pages)
 
