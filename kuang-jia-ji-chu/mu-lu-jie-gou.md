@@ -39,8 +39,5 @@ uni.scss - 常量样式配置文件
 | mp-alipay | 支付宝小程序 |
 | mp-baidu | 百度小程序 |
 
-  
-
-
 
 

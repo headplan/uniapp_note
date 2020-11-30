@@ -11,5 +11,6 @@
     * [manifest.json](kuang-jia-ji-chu/mu-lu-jie-gou/manifestjson.md)
     * [pages.json](kuang-jia-ji-chu/mu-lu-jie-gou/pagesjson.md)
     * [uni.scss](kuang-jia-ji-chu/mu-lu-jie-gou/uniscss.md)
+  * [资源路由说明](kuang-jia-ji-chu/zi-yuan-lu-you-shuo-ming.md)
   * [声明周期](kuang-jia-ji-chu/sheng-ming-zhou-qi.md)
 
