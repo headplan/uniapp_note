@@ -14,5 +14,5 @@ const app = new Vue({
 app.$mount()
 ```
 
-
+配置全局变量等 . 
 
