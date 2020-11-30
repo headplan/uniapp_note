@@ -17,37 +17,30 @@ unpackage/ - 编译打包目录
         app-plus - 手机端
         mp-weixin - 微信小程序
       build - 编译过后的目录
-App.vue - 应用配置,用来配置App全局样式以及监听
+App.vue - 应用配置,用来配置App全局样式以及监听 - https://uniapp.dcloud.io/frame?id=应用生命周期
 main.js - Vue初始化入口文件
-manifest.json - 配置应用名称、appid、logo、版本等打包信息
-pages.json - 配置页面路由、导航条、选项卡等页面类信息
+manifest.json - 配置应用名称、appid、logo、版本等打包信息 - https://uniapp.dcloud.io/collocation/manifest
+pages.json - 配置页面路由、导航条、选项卡等页面类信息 - https://uniapp.dcloud.io/collocation/pages
 uni.scss - 常量样式配置文件
 ```
 
-#### pages.json
+#### Tips
 
-详细可以查看pages.json配置
+* 编译到任意平台时 , `static`目录下的文件均会被打包进去 , 非`static`目录下的文件\(vue、js、css 等\)被引用到才会被包含进去
+* `static`目录下的`js`文件不会被编译 , 如果里面有`es6`的代码 , 不经过转换直接运行 , 在手机设备上会报错
+* `css`、`less/scss`等资源同样不要放在`static`目录下 , 建议这些公用的资源放在`common`目录下
+* HbuilderX 1.9.0+ 支持在根目录创建`ext.json,sitemap.json`文件
 
-路由配置项 - [https://uniapp.dcloud.io/collocation/pages](https://uniapp.dcloud.io/collocation/pages)
+| 有效目录 | 说明 |
+| :--- | :--- |
+| app-plus | App |
+| h5 | H5 |
+| mp-weixin | 微信小程序 |
+| mp-alipay | 支付宝小程序 |
+| mp-baidu | 百度小程序 |
 
-```
-{
-    "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
-        {
-            "path": "pages/index/index",
-            "style": {
-                "navigationBarTitleText": "uni-app"
-            }
-        }
-    ],
-    "globalStyle": {
-        "navigationBarTextStyle": "black",
-        "navigationBarTitleText": "uni-app",
-        "navigationBarBackgroundColor": "#F8F8F8",
-        "backgroundColor": "#F8F8F8"
-    }
-}
-```
+  
+
 
 
 
