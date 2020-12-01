@@ -6,6 +6,7 @@
 * [框架基础](kuang-jia-ji-chu.md)
   * [开发规范](kuang-jia-ji-chu/kai-fa-gui-fan.md)
   * [目录结构](kuang-jia-ji-chu/mu-lu-jie-gou.md)
+    * [cloudfunctions](kuang-jia-ji-chu/mu-lu-jie-gou/cloudfunctions.md)
     * [App.vue](kuang-jia-ji-chu/mu-lu-jie-gou/appvue.md)
     * [main.js](kuang-jia-ji-chu/mu-lu-jie-gou/mainjs.md)
     * [manifest.json](kuang-jia-ji-chu/mu-lu-jie-gou/manifestjson.md)
@@ -13,4 +14,5 @@
     * [uni.scss](kuang-jia-ji-chu/mu-lu-jie-gou/uniscss.md)
   * [资源路由说明](kuang-jia-ji-chu/zi-yuan-lu-you-shuo-ming.md)
   * [生命周期](kuang-jia-ji-chu/sheng-ming-zhou-qi.md)
+* [项目代码](xiang-mu-dai-ma.md)
 
