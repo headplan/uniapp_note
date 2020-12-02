@@ -8,6 +8,7 @@
   * [目录结构](kuang-jia-ji-chu/mu-lu-jie-gou.md)
     * [cloudfunctions云函数目录](kuang-jia-ji-chu/mu-lu-jie-gou/cloudfunctions.md)
     * [hybrid目录](kuang-jia-ji-chu/mu-lu-jie-gou/hybrid.md)
+      * [iframe特性策略allow属性详解](kuang-jia-ji-chu/mu-lu-jie-gou/hybrid/iframete-xing-ce-lve-allow-shu-xing-xiang-jie.md)
     * [App.vue](kuang-jia-ji-chu/mu-lu-jie-gou/appvue.md)
     * [main.js](kuang-jia-ji-chu/mu-lu-jie-gou/mainjs.md)
     * [manifest.json](kuang-jia-ji-chu/mu-lu-jie-gou/manifestjson.md)
