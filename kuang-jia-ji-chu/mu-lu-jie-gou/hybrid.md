@@ -16,7 +16,7 @@
 | allow | String | 用于为[iframe](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/iframe)指定其[特征策略](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/策略特征) | H5 |
 | sandbox | String | 该属性对呈现在[iframe](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/iframe)框架中的内容启用一些额外的限制条件 | H5 |
 | webview-styles | Object | webview 的样式 | App-vue |
-| @message | EventHandler | 网页向应用`postMessage`时 , 会在特定时机（后退、组件销毁、分享）触发并收到消息 .  | H5 暂不支持（可以直接使用[window.postMessage](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/postMessage)） |
+| @message | EventHandler | 网页向应用`postMessage`时 , 会在特定时机（后退、组件销毁、分享）触发并收到消息 . | H5 暂不支持（可以直接使用[window.postMessage](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/postMessage)） |
 | @onPostMessage | EventHandler | 网页向应用实时`postMessage` | App-nvue |
 
 **src**
@@ -64,5 +64,13 @@
 </style>
 ```
 
+**注意**
 
+* 小程序仅支持加载网络网页 , 不支持本地html
+* 小程序端 web-view 组件一定有原生导航栏 , 下面一定是全屏的 web-view 组件 , navigationStyle : custom 对 web-view 组件无效
+* App平台同时支持网络网页和本地网页 , 但本地网页及相关资源\(js、css等文件\)必须放在`uni-app 项目根目录->hybrid->html`
+
+文件夹下 . 如下为一个加载本地网页的`uni-app`
+
+项目文件目录示例：
 
